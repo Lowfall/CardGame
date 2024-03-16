@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED570D45-818C-4F76-88F7-02B7B01203E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.UI.WebApi.Server", "CardGame.UI.WebApi.Server\CardGame.UI.WebApi.Server.csproj", "{9FD2D34B-F815-4F16-A113-4358D22930B3}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cardgame.ui.webapi.client", "cardgame.ui.webapi.client\cardgame.ui.webapi.client.esproj", "{4C0BE543-DD73-43FA-8513-34C7D26AB853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FD2D34B-F815-4F16-A113-4358D22930B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD2D34B-F815-4F16-A113-4358D22930B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD2D34B-F815-4F16-A113-4358D22930B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD2D34B-F815-4F16-A113-4358D22930B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FD2D34B-F815-4F16-A113-4358D22930B3} = {ED570D45-818C-4F76-88F7-02B7B01203E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {312CB5E5-3FA0-4248-967A-3A4AB2845F60}
+	EndGlobalSection
+EndGlobal
