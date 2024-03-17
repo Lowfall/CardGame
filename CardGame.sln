@@ -5,9 +5,15 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED570D45-818C-4F76-88F7-02B7B01203E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.UI.WebApi.Server", "CardGame.UI.WebApi.Server\CardGame.UI.WebApi.Server.csproj", "{9FD2D34B-F815-4F16-A113-4358D22930B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGame.UI.WebApi", "CardGame.UI.WebApi.Server\CardGame.UI.WebApi.csproj", "{9FD2D34B-F815-4F16-A113-4358D22930B3}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cardgame.ui.webapi.client", "cardgame.ui.webapi.client\cardgame.ui.webapi.client.esproj", "{4C0BE543-DD73-43FA-8513-34C7D26AB853}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "CardGame.UI.App", "cardgame.ui.webapi.client\CardGame.UI.App.esproj", "{4C0BE543-DD73-43FA-8513-34C7D26AB853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Infrastructure", "CardGame.Infrastructure\CardGame.Infrastructure.csproj", "{C0E32269-4367-4CAD-B8D0-294972733A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Domain", "CardGame.Domain\CardGame.Domain.csproj", "{9987C840-7609-40F8-AA64-797EA0601116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Application", "CardGame.Application\CardGame.Application.csproj", "{EEA17332-32CB-421A-8D4E-3BA39CF6A336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +31,28 @@ Global
 		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C0BE543-DD73-43FA-8513-34C7D26AB853}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C0E32269-4367-4CAD-B8D0-294972733A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E32269-4367-4CAD-B8D0-294972733A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E32269-4367-4CAD-B8D0-294972733A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E32269-4367-4CAD-B8D0-294972733A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9987C840-7609-40F8-AA64-797EA0601116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9987C840-7609-40F8-AA64-797EA0601116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9987C840-7609-40F8-AA64-797EA0601116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9987C840-7609-40F8-AA64-797EA0601116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA17332-32CB-421A-8D4E-3BA39CF6A336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA17332-32CB-421A-8D4E-3BA39CF6A336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA17332-32CB-421A-8D4E-3BA39CF6A336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA17332-32CB-421A-8D4E-3BA39CF6A336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9FD2D34B-F815-4F16-A113-4358D22930B3} = {ED570D45-818C-4F76-88F7-02B7B01203E4}
+		{4C0BE543-DD73-43FA-8513-34C7D26AB853} = {ED570D45-818C-4F76-88F7-02B7B01203E4}
+		{C0E32269-4367-4CAD-B8D0-294972733A70} = {ED570D45-818C-4F76-88F7-02B7B01203E4}
+		{9987C840-7609-40F8-AA64-797EA0601116} = {ED570D45-818C-4F76-88F7-02B7B01203E4}
+		{EEA17332-32CB-421A-8D4E-3BA39CF6A336} = {ED570D45-818C-4F76-88F7-02B7B01203E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {312CB5E5-3FA0-4248-967A-3A4AB2845F60}

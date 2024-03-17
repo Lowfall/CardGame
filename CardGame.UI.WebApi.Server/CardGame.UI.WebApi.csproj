@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\cardgame.ui.webapi.client\cardgame.ui.webapi.client.esproj">
+    <ProjectReference Include="..\cardgame.ui.webapi.client\CardGame.UI.App.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

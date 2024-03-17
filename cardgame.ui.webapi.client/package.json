@@ -1,5 +1,5 @@
 {
-  "name": "cardgame.ui.webapi.client",
+  "name": "CardGame.UI.App",
   "private": true,
   "version": "0.0.0",
   "type": "module",
