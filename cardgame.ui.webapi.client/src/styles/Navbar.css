@@ -4,7 +4,6 @@
     justify-content: space-between;
     background-color: black;
     color: white;
-    height:60px
 }
 
 .item-list {
@@ -14,8 +13,22 @@
     list-style-type: none;
 }
 
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#logo{
+    margin: 10px
+}
+
 .nav-item {
+    
     margin: 0px 30px 0px 30px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar{
@@ -25,4 +38,7 @@
 
 .authbar {
     width: 30%;
+    display: flex;
+    justify-content: end;
+    margin: 0 40px 0 0;
 }
